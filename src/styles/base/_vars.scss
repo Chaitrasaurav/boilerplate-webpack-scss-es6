@@ -1,0 +1,15 @@
+$black: #000;
+$white: #fff;
+
+$body-background-color: #333;
+$foreground-color: #fff;
+$caption-color: #464646;
+$accent-color: #999;
+$link-color: #ec1f4e;
+
+
+$breakpoints: (
+  'small':  ( min-width:  767px ),
+  'medium': ( min-width:  980px ),
+  'large':  ( min-width: 1200px )
+);

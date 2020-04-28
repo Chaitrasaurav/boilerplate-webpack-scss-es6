@@ -1,0 +1,21 @@
+@import './base/vars';
+@import './base/mixins';
+@import './base/fonts';
+@import './base/print';
+@import './base/reset';
+
+body {
+  font-family: OpenSans-Regular;
+  color: $white;
+
+  @include breakpoint('small'){
+    background: $body-background-color;
+  }
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  background: url(../images/react-logo.svg);
+  background-size: 100%;
+}
